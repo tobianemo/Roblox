@@ -1,0 +1,220 @@
+/* CSS Document */
+
+/* F o n t s 
+	font-family: 'Gajraj One', cursive;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Rampart One', cursive;
+	font-family: 'Roboto Slab', serif;
+	font-family: 'Rubik Iso', cursive;
+*/
+
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #fff;
+}
+
+.hnav {
+	background-color: #fff;
+	min-width: 300px;
+	min-height: 200px;
+	border-bottom: 10px solid #FF0004;
+}
+
+.hnav img {
+	padding: 2% 5%;
+	max-width: 100px;
+	float: left;
+}
+
+.hnav ul {
+
+}
+
+.hnav ul li {
+	list-style-type: none;
+	float: left;
+	padding: 6em 1em;
+	padding-left: 5%;
+}
+
+.hnav ul li a {
+	text-decoration: none;
+	font-size: 1.25em;
+	text-align: right;
+	font-family: 'Rampart One', cursive;
+	color: #000;
+}
+
+.hnav ul li a:hover {
+	font-family: 'Rubik Iso', cursive;
+	color: #ff0004;
+}
+
+header {
+	background-image: url("../images/header-background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 300px;
+}
+
+header img {
+	max-width: 500px;
+	padding: 0% 10% 0;
+	margin-top: -2em;
+}
+
+h1 {
+	padding: 0 12em;
+	margin-top: -50px;
+	color: #fff;
+	font-family: 'Rampart One', cursive;
+}
+
+h2 {
+	padding: 0 22em 1em;
+	color: #fff;
+	font-family: 'Rampart One', cursive;
+}
+
+main {
+	padding: 2%;
+	border-top: 10px solid #ff0004;
+	background-image: url("../images/main-bg2.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 750px;
+}
+
+main blockquote {
+	font-size: 5em;
+	text-align: center;
+	padding: 0.5em;
+	font-family: 'Gajraj One', cursive;
+	color: #fff;
+	text-decoration: underline;
+	text-decoration-style: dashed;
+}
+
+main img {
+	max-width: 750px;
+	margin: 0 auto;
+	padding-left: 20em;
+}
+
+main p {
+	font-size: 2em;
+	padding: 2%;
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+}
+
+#events1 img {
+	max-width: 40%;
+	margin-left: -15em;
+	float: left;
+}
+
+#events2 img {
+	max-width: 45%;
+	margin-left: -15em;
+	float: left;
+	padding-bottom: 5%;
+}
+
+table {
+	float: left;
+	max-width: 40%;
+	padding-left: 10%;
+	padding-top: 3%;
+}
+
+legend {
+	font-size: 1.5em;
+	color: #fff;
+	font-family: 'Gajraj One', cursive;
+	padding-bottom: 10%;
+}
+
+td {
+	color: #fff;
+	font-family: 'Rampart One', cursive;
+	font-size: 30px;
+	text-align: left;
+	padding-top: 2%;
+}
+
+#fName, #lName, #email {
+	padding: 2.5%;
+	border: 5px double #ff0004;
+}
+
+#submit {
+	padding: 2.5%;
+	border: 5px double #ff0004;
+	font-size: 1em;
+	font-family: 'Rampart One', cursive;
+}
+
+#submit:hover {
+	background-color: #ff0004;
+	border: 5px double #000;
+	font-family: 'Rubik Iso', cursive;
+}
+
+.newsletter img {
+	float: left;
+	max-width: 45%;
+	max-height: 450px;
+}
+
+.fnav {
+	background-color: #fff;
+	min-width: 300px;
+	min-height: 100px;
+	border-top: 10px solid #FF0004;
+	border-bottom: 10px solid #FF0004;
+}
+
+.fnav ul {
+
+}
+
+.fnav ul li {
+	list-style-type: none;
+	float: left;
+	padding: 2em 1em;
+	padding-left: 9%;
+}
+
+.fnav ul li a {
+	text-decoration: none;
+	font-size: 1.25em;
+	text-align: center;
+	font-family: 'Rampart One', cursive;
+	color: #000;
+}
+
+.fnav ul li a:hover {
+	font-family: 'Rubik Iso', cursive;
+	color: #ff0004;
+}
+
+footer {
+	padding: 50px;
+}
+
+footer p, h4, h5, h6 {
+	text-align: center;
+}
+
+
+
+
+
+
+
